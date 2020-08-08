@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-    hello world
+    <simple-vuex></simple-vuex>
   </div>
 </template>
 
 <script>
 
+import SimpleVuex from './components/SimpleVuex'
 export default {
-  name: 'App'
+  name: 'App',
+  components: { SimpleVuex }
 }
 </script>
 
